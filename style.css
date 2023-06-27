@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 100vw;
+  height: 200vh;
+  background-color: hsl(0, 3%, 76%);
+  position: relative;
+}
+.inner-container {
+  width: 60vw;
+  height: 60vh;
+  background-color: hsl(0, 3%, 76%);
+  position: absolute;
+  top: 50vh;
+  left: 15vw;
+  position: relative;
+}
+
+.left-container {
+  width: 30vw;
+  height: 60vh;
+  background-color: hsl(0, 3%, 76%);
+  position: relative;
+}
+
+.upper-left-container {
+  width: 30vw;
+  height: 30vh;
+  background-color: ;
+  position: relative;
+}
+.upper-left-container .mg {
+  width: 25vw;
+  height: 20vh;
+  position: absolute;
+  top: 2.5vh;
+  left: 2.5vw;
+}
+.mg img {
+  width: 20vw;
+  height: 28vh;
+}
+.lower-left-container {
+  width: 30vw;
+  height: 30vh;
+  color: antiquewhite;
+  position: absolute;
+  top: 25vh;
+}
+.lower-left-container .pg {
+  width: 25vw;
+  height: 20vh;
+  color: azure;
+  background-color: hsl(0, 3%, 76%);
+  position: absolute;
+  top: 2.5vh;
+  left: 2.5vw;
+}
+.pg p {
+  width: 32vw;
+  height: 28vh;
+  padding-left: 26px;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  font-size: larger;
+}
+.right-container {
+  width: 30vw;
+  height: 60vh;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 0;
+  left: 40vw;
+}
+.right-inner-container {
+  width: 26vw;
+  height: 50vh;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 4vh;
+  left: 2vw;
+}
+.right-inner-container .name {
+  width: 26vw;
+  height: 7vh;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+}
+.right-inner-container .name input {
+  width: 26vw;
+  height: 7vh;
+  background-color: #ffffff;
+  padding: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.name input:hover {
+  border: 2px solid rgb(125, 107, 224);
+}
+.right-inner-container .password {
+  width: 26vw;
+  height: 7vh;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 9vh;
+}
+.right-inner-container .password input {
+  width: 26vw;
+  height: 7vh;
+  padding: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 10px;
+}
+.password input:hover {
+  border: 2px solid rgb(125, 107, 224);
+}
+.right-inner-container .button {
+  width: 26vw;
+  height: 7vh;
+  background-color: #ffffff;
+  position: absolute;
+  top: 18vh;
+}
+.right-inner-container .button input {
+  width: 26vw;
+  height: 7vh;
+  text-align: center;
+  transition: ;
+  cursor: pointer;
+  font-size: large;
+  color: #ffffff;
+  background-color: rgb(4, 4, 231);
+  border-radius: 10px;
+}
+.button input:hover {
+  border: 2px solid rgb(39, 3, 245);
+  background-color: rgb(71, 71, 161);
+  color: black;
+}
+.right-inner-container .forget-password {
+  width: 26vw;
+  height: 7vh;
+  background-color: ;
+  position: absolute;
+  top: 27vh;
+}
+.right-inner-container .forget-password a {
+  width: 26vw;
+  height: 7vh;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: large;
+  cursor: pointer;
+  color: blue;
+}
+.forget-password a:hover {
+  color: black;
+}
+.right-inner-container .hr-line {
+  width: 26vw;
+  height: 7vh;
+  background-color: #ffffff;
+  position: absolute;
+  top: 36vh;
+}
+.hr-line .hr {
+  width: 26vw;
+  height: 7vh;
+  background-color: white;
+  padding-top: 3.5vh;
+}
+
+.right-inner-container .create-button {
+  width: 26vw;
+  height: 7vh;
+  background-color: #ffffff;
+  position: absolute;
+  top: 45vh;
+}
+.right-inner-container .create-button input {
+  width: 26vw;
+  height: 7vh;
+  background-color: rgb(131, 206, 20);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: xx-large;
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+.right-inner-container .create-button input:hover {
+  background-color: greenyellow;
+  color: black;
+}
